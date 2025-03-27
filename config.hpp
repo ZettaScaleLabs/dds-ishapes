@@ -23,11 +23,11 @@
 #  define IS_HEIGHT 361
 #  define BRAND_LOGO_X 125
 #  define BRAND_LOGO_Y 10
-#  define ISOCPP_LOGO_X 280
+#  define ISOCPP_LOGO_X 200
 #ifdef Ospl 
      #define ISOCPP_LOGO_Y 305
 #elif Cyclone
-    # define ISOCPP_LOGO_Y 300
+    # define ISOCPP_LOGO_Y 285
 #endif
 #else
 #  define IS_WIDTH  321
@@ -38,7 +38,7 @@
 #  ifdef Ospl 
    # define ISOCPP_LOGO_Y 305
 #  elif Cyclone
-   # define ISOCPP_LOGO_Y 305
+   # define ISOCPP_LOGO_Y 285
 #  endif
 #endif
 
