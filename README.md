@@ -33,14 +33,14 @@ To clone the ishape demo application in your locale repository, do
 
 ## Building Cyclone DDS iShapes
 
-From now one, we assume Cylone DDS or Vortex Opensplice and QT5 are installed
+From now one, we assume Cylone DDS or Vortex Opensplice and QT6 are installed
 
 ### Building on Linux/MacOS with cmake
-To build the iShapes demo you need to have installed a QT5 development environment. The following QT5 environment variables has to be set in order to build and run ishapes:
+To build the iShapes demo you need to have installed a QT6 development environment. The following QT6 environment variables has to be set in order to build and run ishapes:
       
-      $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:<qt5_install-location>
+      $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:<qt6_install-location>
       
-       Where <qt5_install-location> is the installation directory of your QT5 installation , e.g (/usr/lib/x86_64_linux-gnu/qt5)  
+       Where <qt6_install-location> is the installation directory of your QT6 installation , e.g (/usr/lib/x86_64_linux-gnu/qt6)  
 
 
  If Cyclone DDS is not installed on the linux default locations ( i.e /usr/lib , /usr/bin ...) you need to update further the LD_LIBRARY_PATH and the PATH env variables. This is described below: 
@@ -64,13 +64,13 @@ To start the real build process go to your iShape-demo root directory and follow
           
 
 ### Building on Windows with cmake
-To build the demo you need to have installed a QT5 development environment. The following QT5 environment variables has to be set in order to build and run ishapes:
+To build the demo you need to have installed a QT6 development environment. The following QT6 environment variables has to be set in order to build and run ishapes:
 
-      C:\> set QTDIR=<QT5-INSTALLATION-DIR> 
-      C:\> set QT_PLUGIN_PATH=<QT5-INSTALLATION-DIR>\plugins  
-      C:\> set PATH=<QT5-INSTALLATION-DIR>\bin;%PATH%   
+      C:\> set QTDIR=<QT6-INSTALLATION-DIR> 
+      C:\> set QT_PLUGIN_PATH=<QT6-INSTALLATION-DIR>\plugins  
+      C:\> set PATH=<QT6-INSTALLATION-DIR>\bin;%PATH%   
       
-      Where <QT5-INSTALLATION-DIR> is the installation directory of your QT5 installation , e.g (<C:\Qt\5.7.1> )  
+      Where <QT6-INSTALLATION-DIR> is the installation directory of your QT6 installation , e.g (<C:\Qt\6.2.4> )  
 
 then you need to simply do the following from the iShape demo root directory:
 
@@ -87,11 +87,11 @@ Note: please use '--config Debug' if you are using Cyclone DDS debug build to bu
 
 ### Building on Linux/MacOS with cmake
 
-To build the iShapes demo you need to have installed a QT5 development environment. The following QT5 environment variables has to be set in order to build and run ishapes:
+To build the iShapes demo you need to have installed a QT6 development environment. The following QT6 environment variables has to be set in order to build and run ishapes:
       
-      $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:<qt5_install-location>
+      $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:<qt6_install-location>
       
-       Where <qt5_install-location> is the installation directory of your QT5 installation , e.g (/usr/lib/x86_64_linux-gnu/qt5)  
+       Where <qt6_install-location> is the installation directory of your QT6 installation , e.g (/usr/lib/x86_64_linux-gnu/qt6)  
 
 then you need to simply do the following from the iShape demo root directory:
 
@@ -106,14 +106,14 @@ then you need to simply do the following from the iShape demo root directory:
       Note: please use '--config Debug' if you are using Opensplice DDS debug build to build this iShape application.
   
 ### Building on Windows with cmake
-To build the demo you need to have installed a QT5 development environment.  The following QT5 environment variables has to be set in order to build and run ishapes:
+To build the demo you need to have installed a QT6 development environment.  The following QT6 environment variables has to be set in order to build and run ishapes:
 
-      C:\> set QTDIR=<QT5-INSTALLATION-DIR> 
-      C:\> set QT_PLUGIN_PATH=<QT5-INSTALLATION-DIR>\plugins  
-      C:\> set PATH=<QT5-INSTALLATION-DIR>\bin;%PATH%  
+      C:\> set QTDIR=<QT6-INSTALLATION-DIR> 
+      C:\> set QT_PLUGIN_PATH=<QT6-INSTALLATION-DIR>\plugins  
+      C:\> set PATH=<QT6-INSTALLATION-DIR>\bin;%PATH%  
       C:\> "<ospl_install-location>"\release.bat  
       
-      Where is the installation directory of your QT5 installation , e.g (<C:\Qt\5.7.1> )  
+      Where is the installation directory of your QT6 installation , e.g (<C:\Qt\6.2.4> )  
 
 then you need to simply do the following from the iShape demo root directory:
 
